@@ -10,17 +10,43 @@ body{
     margin: 0;
 }
 
+
+
 .header{
     border-top: 6px black  solid;
     border-bottom: 10px lightgrey solid;
-    padding: 60px;
+    padding: 5px;
     margin-top: 0%;
 }
 
-.header img{
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     position: absolute;
-    top: 18px;
-    left: 30px;
+    top: 40px;
+    right: 12px;
+  }
+
+li {
+    display: inline;
+    float: right;
+    padding: 13px;
+  }
+
+
+a{
+    text-decoration: none;
+    font-family: cantarell;
+}
+
+
+.icon1{
+    color: gray;
+}
+
+.icon1:hover{
+    color: black;
 }
 
 .p1{
@@ -31,469 +57,31 @@ body{
     font-style: italic;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 60px;
-    right: 12px;
-  }
 
-  li {
-    display: inline;
-    float: right;
-    padding: 20px;
-  }
-
-a{
-    text-decoration: none;
-    font-family: cantarell;
-}
-
-.pertama{
-    color: black;
-}
-
-.kedua{
+.nav-link{
     color: gray;
 }
 
-.kedua:hover{
+.nav-link:hover{
     color: black;
-    text-decoration: none;
 }
 
-.img2{
-    position: absolute;
-    top: 138px;
-    left: -250px;
-    z-index: -1;
+.thumbnail {
+    position:relative;
+    overflow:hidden;
 }
-
-.box2_1{
-    position: absolute;
-    top: 250px;
-    left: 150px;
-    color: white;
-    border: 2px solid transparent;
-    background-color: rgba(126, 121, 121, 0.6) ;
-    padding: 50px 100px 75px 100px;
-}
-
-.p2{
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 0px;
-}
-
-.box2_2{
-    position: absolute;
-    top: 150px;
-    left: 100px;
-    margin-top: 20px;
-    padding: 7px 7px 7px 7px;
-    border: 2px solid transparent;
-    background-color: black;
-    color: white;
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(90, 90, 90, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
     text-align: center;
-    font-size: 18px;
-    border-radius: 5px;
-    border-collapse: collapse;
+    color:#fff !important;
+    z-index:2;
 }
 
-.a1{
-    color: white;
-    text-decoration: none;
-}
-
-.a1:hover{
-    color: white;
-    text-decoration: none;
-}
-
-.row{
-    position: absolute;
-    left: 110px;
-    border-bottom: 1px solid lightgrey;
-}
-
-.column {
-    float: left;
-    max-width: 30%;
-    width: 33.33%;
-    padding: 10px 25px 50px 25px;
-    margin-top: 580px;
-    text-align:center;
-  }
-
-.column1{
-    max-width: 33.3%;
-}
-
-.column h2{
-    font-family: Fjalla One;
-    color: rgb(83, 83, 83);
-}
-
-.column p{
-    font-family: cantarell;
-    font-size: 15px;
-    color: rgb(88, 88, 88);
-}
-
-.column a{
-    font-family: cantarell;
-    color: white;
-    text-decoration: none;
-}
-
-.column a:hover{
-    color: white;
-    text-decoration: none;
-}
-  
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-.box3{
-      border: 2px solid black;
-      background-color: black;
-      padding: 4px 6px 4px 6px;
-      border-radius: 5px;
-  }
-
-.column2{
-    float: left;
-    width: 30%;
-    padding: 10px 25px 0px 25px;
-    margin-top: 1100px;
-    text-align:left;
-    font-family: Fjalla One;
-}
-
-.row1{
-    position: absolute;
-    left: 150px;
-    border-bottom: 1px solid lightgrey;
-}
-
-.a{
-    border-bottom: 3px solid black;
-}
-
-.b{
-    border-bottom: 3px solid black;
-}
-
-.c{
-    border-bottom: 3px solid black;
-}
-
-.column3{
-    float: left;
-    width: 30%;
-    padding: 10px 25px 0px 25px;
-    margin-top: 1500px;
-    margin-right: 20px;
-    text-align:left;
-    font-family: Fjalla One;
-}
-
-.row2{
-    position: absolute;
-    left: 80px;
-    border-bottom: 1px solid lightgrey;
-}
-
-.akhir{
-    margin-top: 1950px;
-    text-align: center;
-    color: grey;
-    font-family: Fjalla One;
-    font-size: 23px;
-    font-weight: lighter;
-    letter-spacing: 4px;
-    padding-bottom: 45px;
-}
-
-.akhir1{
-    position: absolute;
-    top: 2125px;
-    left: 100px;
-    font-family: cantarell;
-    font-size: 13px;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-}
-
-.footer {
-    border-top: 10px solid lightgray;
-    padding: 50px;
-    text-align: center;
-    background: rgb(87, 85, 85);
-    margin-top: 0px;
-  }
-
-.footer h3{
-    font-family: Fjalla one;
-    color: white;
-}
-
-.footer p{
-    font-family: cantarell;
-    position: absolute;
-    right: 175px;
-    top: 2250px;
-    font-size: 10px;
-    color: white;
-}
-
-.footer1{
-    position: absolute;
-    left: 200px;
-    top: 2200px;
-    word-spacing: 2px;
-}
-
-.footer2{
-    position: absolute;
-    right: 200px;
-    top: 2200px;
-    word-spacing: 2px;
-}
-
-.footer4{
-    text-decoration: none;
-    color: white;
-    text-align: left;
-    font-family: cantarell;
-    font-size: 10px;
-}
-
-.d{
-    position: absolute;
-    left: 80px;
-    top: 2250px;
-}
-
-.e{
-    position: absolute;
-    left: 80px;
-    top: 2270px;
-}
-
-.f{
-    position: absolute;
-    left: 80px;
-    top: 2290px;
-}
-
-.akhir2{
-    text-align: center;
-    color: grey;
-    font-size: 12px;
-    word-spacing: 2px;
-}
-
-.aboutus_1{
-    position: absolute;
-    top: 200px;
-    margin: 0px 50px 0px 50px;
-}
-.aboutus_1 h2,h3{
-    font-family: Fjalla One;
-}
-.aboutus_1 p{
-    font-family: cantarell;
-}
-
-.biodata{
-    position: absolute;
-    top: 450px;
-    left: 400px;
-    margin: 0px 50px 0px 50px;
-    text-align: center;
-    font-family: cantarell;
-}
-
-.biodata img{
-    max-width: 300px;
-    border-radius: 50px;
-}
-
-.foto_halaman{
-    position: absolute;
-    top: 1000px;
-    left: 150px;
-}
-
-.foto_halaman img{
-    max-width: 300px;
-}
-
-.foto_halaman1{
-    position: absolute;
-    top: 1300px;
-    left: 150px;
-}
-
-.foto_halaman1 img{
-    max-width: 300px;
-}
-
-.teks_halaman{
-    position: absolute;
-    top: 1600px;
-    left: 430px;
-    text-align: center;
-    font-family: cantarell;
-}
-
-.kontak{
-    position: absolute;
-    top: 350px;
-    left: 50px;
-}
-
-.kontak1{
-    position: absolute;
-    top: 125px;
-    left: 50px;
-}
-
-.kontak1 h3{
-    font-size:28px;
-    color: gray;
-}
-
-.kontak1 p{
-    font-family: cantarell;
-    color: grey;
-}
-
-.apser{
-    position: absolute;
-    top: 150px;
-    left: 250px;
-    text-align: center;
-}
-
-.apser p{
-    text-align: left;
-}
-
-.akhir_1{
-    margin-top: 400px;
-    text-align: center;
-    color: grey;
-    font-family: Fjalla One;
-    font-size: 23px;
-    font-weight: lighter;
-    letter-spacing: 4px;
-    padding-bottom: 45px;
-}
-
-.akhir1_1{
-    position: absolute;
-    top: 580px;
-    left: 100px;
-    font-family: cantarell;
-    font-size: 13px;
-    border: 1px solid lightgray;
-    border-radius: 10px;
-    padding: 5px 10px 5px 10px;
-}
-
-.footer_1{
-    border-top: 10px solid lightgray;
-    padding: 50px;
-    text-align: center;
-    background: rgb(87, 85, 85);
-    margin-top: 0px;
-  }
-
-.footer_1 h3{
-    font-family: Fjalla one;
-    color: white;
-}
-
-.footer_1 p{
-    font-family: cantarell;
-    position: absolute;
-    right: 175px;
-    top: 650px;
-    font-size: 10px;
-    color: white;
-}
-
-.footer1_1{
-    position: absolute;
-    left: 200px;
-    top: 650px;
-    word-spacing: 2px;
-}
-
-.footer2_1{
-    position: absolute;
-    right: 200px;
-    top: 650px;
-    word-spacing: 2px;
-}
-
-.footer4_1{
-    text-decoration: none;
-    color: white;
-    text-align: left;
-    font-family: cantarell;
-    font-size: 10px;
-}
-
-.m{
-    position: absolute;
-    left: 80px;
-    top: 700px;
-}
-
-.n{
-    position: absolute;
-    left: 80px;
-    top: 720px;
-}
-
-.o{
-    position: absolute;
-    left: 80px;
-    top: 740px;
-}
-
-.akhir2_1{
-    text-align: center;
-    color: grey;
-    font-size: 12px;
-    word-spacing: 2px;
-}
-
-.row3{
-    position: absolute;
-    left: 110px;
-    border-bottom: 1px solid lightgrey;
-}
-
-.column4 {
-    float: left;
-    max-width: 30%;
-    width: 33.33%;
-    padding: 10px 25px 50px 25px;
-    margin-top: 5px;
-    text-align:center;
-  }
-
-  @media screen and (max-width:600px) {
-    .column {
-      width: 100%;
-    }

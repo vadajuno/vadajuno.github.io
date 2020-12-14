@@ -1,113 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cantarell">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla One">
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" type="image/png" href="http://serviceapplebandung.com/wp-content/uploads/2016/01/cropped-Apple-Logo-black-3-32x32.png">
-    <title>Apple Service Bandung | Service Hardware dan Software apple Dibandung</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cantarell">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fjalla One">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="icon" type="image/png" href="http://serviceapplebandung.com/wp-content/uploads/2016/01/cropped-Apple-Logo-black-3-32x32.png">
+  <title>Apple Service Bandung | Service Hardware dan Software apple Dibandung</title>
+
+  <script src='assets/js/jquery-1.10.1.min.js'></script>       
+    
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- akhir dari Bagian js -->
+    <script type="text/javascript">
+    $( document ).ready(function() {
+    $("[rel='tooltip']").tooltip();    
+ 
+    $('.thumbnail').hover(
+        function(){
+            $(this).find('.caption').slideDown(250); //.fadeIn(250)
+        },
+        function(){
+            $(this).find('.caption').slideUp(250); //.fadeOut(205)
+        }
+        ); 
+    });
+    </script>
 </head>
 
 <body>
-    <div class="header">
-        <img src="apple1-2.png" alt="serviceapplebandung.com">
-        <p class="p1" style="font-family: Fjalla One;">Service Hardware dan Software apple Dibandung</p>
-
-        <ul>
-            <li><a href="tips_tricks.html" class="kedua">Tips & Trick</a></li>
-            <li><a href="apple_service.html" class="kedua">Apple Service</a></li>
-            <li><a href="contact_us.html" class="kedua">Contact Us</a></li>
-            <li><a href="biodata.html" class="kedua">About Us</a></li>
-            <li><a href="index.html" class="pertama">Home</a></li>
-        </ul>
-    </div>
- 
-    <div class="box2">
-      <img class="img2" src="http://serviceapplebandung.com/wp-content/uploads/2016/01/Service-Hardware-dan-Software-Produk-Apple-1870x500.jpg" alt="Mengetahui Baterai iPhone Yang Bocor Atau Rusak">
-     <div class="box2_1">
-      <h1 class="h1" style="font-family: Fjalla One;">Service Hardware dan Software Produk Apple</h1>
-      <p class="p2" style="font-family: cantarell;">Service Hardware dan Software Produk Apple di bandung</p>
-      <div class="box2_2">
-        <a class="a1" style="font-family: cantarell;" href="http://serviceapplebandung.com/ganti-spare-part-iphone-macbook-imac-area-bandung/">Lihat Selengkapnya</a>
+  <div class="header">
+    <p class="p1" style="font-family: Fjalla One;">Service Hardware dan Software apple Dibandung</p>
+    <nav class="navbar navbar-expand-sm navbar-light ">
+      <div class="container-fluid">
+          <!-- Brand -->
+          <a href="http://serviceapplebandung.com/">
+            <img src="brand.png" alt="serviceapplebandung">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <a class="icon1" title="Subscribe to my rss feed" href="http://appleservice.club/feed/rss/" >
+              <i class='fas fa-rss pull-left'></i></a>
+            
+           
+          <!-- Links -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html" style="color: black;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="biodata.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="apple_service.html">Apple Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tips_tricks.html">Tips & Trick</a>
+            </li>
+          </ul>
       </div>
-    </div>
+    </nav>
+  </div>
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active"><img width="1870" height="500" src="carousel1.jpg" >
+        <div class="carousel-caption"><h1 class="slide-title" style="color:black">Service Hardware dan Software Produk Apple</h1> <p class="lead" style="color:black">Service Hardware dan Software Produk Apple di bandung</p> <a class="btn btn-large btn-primary" href="http://serviceapplebandung.com/ganti-spare-part-iphone-macbook-imac-area-bandung/" target="_self">Lihat Selengkapnya</a></div>
+      </div>
+      <div class="carousel-item"><img width="1600" height="500" src="carousel2.jpg">
+        <div class="carousel-caption"><h1 class="slide-title" style="color:black">Install Aplication iphone, ipad, imac, macbook</h1> <p class="lead" style="color:black">install aplikasi untuk mobile device iphone, tambah lagu pada ipad, software pada imac or macbook..</p> <a class="btn btn-large btn-primary" href="http://serviceapplebandung.com/ganti-spare-part-iphone-macbook-imac-area-bandung/" target="_self">Lihat Selengkapnya</a></div>
+      </div>
+      <div class="carousel-item"><img width="1600" height="500" src="carousel3.jpg">
+        <div class="carousel-caption"><h1 class="slide-title" >Apple Service Antar Jemput Dibandung</h1> <p class="lead" >kami siap menerima pelayanan service antar jemput wilayah bandung untuk kenyamanan konsumen agar tidak usah repot-repot datang ke workshop...</p> <a class="btn btn-large btn-primary" href="http://serviceapplebandung.com/about-us/" target="_self">Lihat Selengkapnya</a></div>
+      </div>
     </div>
     
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+
+  <div class="container" style="margin-top: 100px;">
     <div class="row">
-      <div class="column column1">
-        <img src="artikel1.png" alt="" width="200px" style="padding-bottom: 50px;">
-        <h2>Ganti Spare Part iPhone MacBook iMac Area Bandung</h2>
-        <p>Service apple specialist di area bandung siap repair handphone panggilan, ganti spare part iphone, macbook, imac.</p>
-        <a href="http://serviceapplebandung.com/ganti-spare-part-iphone-macbook-imac-area-bandung/" class="box3">Lihat Selengkapnya</a>
+      <div class="col-sm-4">
+        <img src="artikel1.png" class="mx-auto d-block rounded-circle">
+        <h3 class="text-center" style="margin-top: 60px; font-family: Fjalla One; color: rgb(70, 68, 68);">Ganti Spare Part iPhone MacBook iMac Area Bandung</h3>
+        <p class="text-center" style="font-size: 15px; font-family: cantarell; color: gray;">Service apple specialist di area bandung siap repair handphone panggilan, ganti spare part iphone, macbook, imac.</p>
+        <div class="text-center"><a class="btn btn-sm btn-dark" href="apple_service.html" target="_self">Lihat Selengkapnya</a></div>
       </div>
-      
-      <div class="column">
-        <img src="type-apple-logo-removebg-preview.png" alt="" width="200px" style="padding-bottom: 100px;">
-        <h2>Contact Us Apple Service Bandung</h2>
-        <p>apple service area bandung ganti spare part, repair handphone, macbook, ipod, imac, install aplikasi, specialist software dan hardware apple</p>
-        <a href="contact_us.html" class="box3">Lihat Selengkapnya</a>
+      <div class="col-sm-4">
+        <img src="artikel2.png" width="200px" class="mx-auto d-block">
+        <h3 style="margin-top: 100px; font-family: Fjalla One; color: rgb(70, 68, 68)" class="text-center" >Contact Us Apple Service Bandung</h3>
+        <p class="text-center" style="font-size: 15px; font-family: cantarell; color: gray;">apple service area bandung ganti spare part, repair handphone, macbook, ipod, imac, install aplikasi, specialist software dan hardware apple</p>
+        <div class="text-center"><a class="btn btn-sm btn-dark" href="contact_us.html" target="_self">Lihat Selengkapnya</a></div>
       </div>
-      
-      <div class="column">
-        <img src="artikel2.png" alt="" style="padding-bottom: 35px;">
-        <h2>About Us</h2>
-        <p>About apple Service bandung merupakan salah satu dari sekian banyak service iphone, ipad, macbook yang terdapat di bandung kami melayani service antar jemput untuk wilayah ...</p>
-        <a href="biodata.html" class="box3">Lihat Selengkapnya</a>
+      <div class="col-sm-4">
+        <img src="artikel3.png" class="mx-auto d-block rounded-circle" >      
+        <h3 class="text-center" style="margin-top: 60px; font-family: Fjalla One; color:rgb(70, 68, 68);" >About Us</h3>
+        <p class="text-center" style="font-size: 15px; font-family: cantarell; color: gray;">About apple Service bandung merupakan salah satu dari sekian banyak service iphone, ipad, macbook yang terdapat di bandung kami melayani service antar jemput untuk wilayah ...</p>
+        <div class="text-center"><a class="btn btn-sm btn-dark" href="biodata.html" target="_self">Lihat Selengkapnya</a></div>
       </div>
     </div>
+  </div>
 
-    <div class="row1">
-      <div class="column2">
-        <img  src="artikela.png" alt=""  style="padding-bottom: 35px;">
-        <h2 class="a">iPhone Masih Jadi Smartphone Idaman Remaja AS</h2>
+  <div class="container" style="margin-top: 80px;">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="caption">
+            <a style="text-decoration: none; color: white;" href="http://serviceapplebandung.com/iphone-masih-jadi-smartphone-idaman-remaja/"><p class="" style="font-family: cantarell; font-size: 16px;">iPhone Masih Jadi Smartphone Idaman Remaja AS
+              Remaja Amerika Serikat (AS) diketahui sebagai penggemar berat Apple, dan tidak lagi mengejutkan membuat pembelian iPhone meningkat setiap tahun.
+              Berdasarkan survei perusahaan manajemen aset dan bank investasi, Piper Jaffray, jumlah remaja yang tertarik membeli iPhone meningkat tahun ini.</p></a>
+          </div>
+          <img src="artikela.png" alt="" class="img-thumbnail" style="">
+        </div>
+        <h4 class="text-left" style="border-left: 2px lightgray solid; border-right: 2px lightgray solid; border-bottom: 3px black solid; font-family: Fjalla One; padding: 15px 25px 15px 25px;">iPhone Masih Jadi Smartphone Idaman Remaja AS</h4>
       </div>
-      
-      <div class="column2">
-        <img  src="artikelb.png" alt=""  style="padding-bottom: 35px;">
-        <h2 class="b">4 Hal Tentang iPhone 2018 yang Perlu Anda Ketahui</h2>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="caption">
+            <a style="text-decoration: none; color: white;" href="http://serviceapplebandung.com/iphone-masih-jadi-smartphone-idaman-remaja/"><p class="" style="font-family: cantarell; font-size: 16px;">4 Hal Tentang iPhone 2018 yang Perlu Anda Ketahui
+              iPhone X kini menjadi flagship Apple setidaknya hingga pertengahan 2018 mendatang. Sudah menjadi hal yang lumrah jika smartphone generasi selanjutnya mengusung berbagai fitur yang lebih canggih. Mengetahui Baterai iPhone Yang Bocor Atau Rusak
+              iPhone X sendiri mengusung sederet fitur yang tak biasanya. Diantara fitur tersebut yakni layar lega disertai bezel yang tipis. Dari sisi keamanana, Apple mengusung teknologi pemindai wajah yang diklaim sangat aman meski beberapa pengguna mampu membobol teknologi tersebut.
+              </p></a>
+          </div>
+          <img src="artikelb.png" alt="">
+        </div>
+        <h4 class="text-left" style="border-left: 2px lightgray solid; border-right: 2px lightgray solid; border-bottom: 3px black solid; font-family: Fjalla One; padding: 15px 25px 15px 25px;">4 Hal Tentang iPhone 2018 yang Perlu Anda Ketahui</h4>
       </div>
-      
-      <div class="column2">
-        <img  src="artikelc.png" alt="" style="padding-bottom: 35px;">
-        <h2 class="c">8 Hal Wajib Dilakukan Bagi Yang Baru Beli dan Punya ...</h2>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="caption">
+            <a style="text-decoration: none; color: white;" href="http://serviceapplebandung.com/8-hal-wajib-dilakukan-bagi-yang-baru-beli-dan-punya-iphone/  "><p class="" style="font-family: cantarell; font-size: 16px;">8 Hal Wajib Dilakukan Bagi Yang Baru Beli dan Punya iPhone
+              Baru saja punya iPhone? Yeah, selamat bergabung! Kali ini MakeMac akan membagi informasi penting tentang apa saja yang harus kamu lakukan, setelah memiliki iPhone. Tips-tips di bawah ini kami tujukan buat kamu yang baru pertama kali punya iPhone dan tidak tahu harus melakukan apa ya jadi, simpan halaman ini di bookmark kamu – buat yang sudah punya juga tetap bisa belajar melalui artikel ini kok.
+              </p></a>
+          </div>
+          <img src="artikelc.png" alt="">
+        </div>
+        <h4 class="text-left" style="border-left: 2px lightgray solid; border-right: 2px lightgray solid; border-bottom: 3px black solid; font-family: Fjalla One; padding: 15px 25px 15px 25px;">8 Hal Wajib Dilakukan Bagi Yang Baru Beli dan Punya...</h4>
+        </div>
       </div>
     </div>
+  </div>
 
-    <div class="row2">
-      <div class="column3">
-        <img  src="artikeld.png" alt=""  style="padding-bottom: 35px;">
-        <h2 class="a">7 Kelebihan IPhone Dari Pada Android Yang Harus Kamu Tahu</h2>
+  <div class="container" style="margin-top: 50px;">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="caption">
+            <a style="text-decoration: none; color: white;" href="http://serviceapplebandung.com/7-kelebihan-iphone-dari-pada-android-yang-harus-kamu-tahu/"><p class="" style="font-family: cantarell; font-size: 16px;">Apple vs android. Jika kamu ingin merasakan sensasi baru dalam menggunakan smartphone. Misalnya sebelumnya menggunakan android sekarang akan pindah menggunakan iPhone, maka kamu harus banyak membaca artikel mengenai perbedaan antara keduanya.
+              Kali ini saya akan mencoba menjabarkan perbedaan antara android dan iPhone. Akan tetapi lebih ke-keunggulan iPhone dari pada android, karena saya asumsikan kamu adalah pengguna android yang akan pindah ke iPhone dan sedang mencari informasi tentang iPhone.
+              </p></a>
+          </div>
+          <img src="artikeld.png" alt="" class="img-thumbnail" style="">
+        </div>
+        <h4 class="text-left" style="font-size: 23px; border-left: 2px lightgray solid; border-right: 2px lightgray solid; border-bottom: 3px black solid; font-family: Fjalla One; padding: 15px 25px 33px 25px;">7 Kelebihan IPhone Dari Pada Android Yang Harus Kamu Tahu</h4>
       </div>
-      
-      <div class="column3">
-        <img  src="artikele.png" alt=""  style="padding-bottom: 35px;">
-        <h2 class="b">iPhone X Merupakan Evolusi Terbaik di 10 Tahun iPhone</h2>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="caption">
+            <a style="text-decoration: none; color: white;" href="http://serviceapplebandung.com/iphone-x-merupakan-evolusi-terbaik-di-10-tahun-iphone/"><p class="" style="font-family: cantarell; font-size: 16px;">iPhone X Merupakan Evolusi Terbaik di 10 Tahun iPhone Perangkat iPhone pertama kali hadir di tahun 2007, itu artinya tahun ini Apple resmi menjual iPhone selama 10 tahun. Beragam teknologi terus diberikan dari tahun ke tahun untuk evolusi perangkat iPhone mulai dari Retina Display (iPhone 4), Touch ID (iPhone 5s), 3D Touch (iPhone 6s), dan seterusnya.
+              </p></a>
+          </div>
+          <img src="artikele.png" alt="">
+        </div>
+        <h4 class="text-left" style="border-left: 2px lightgray solid; border-right: 2px lightgray solid; border-bottom: 3px black solid; font-family: Fjalla One; padding: 15px 25px 15px 25px;">iPhone X Merupakan Evolusi Terbaik di 10 Tahun iPhone</h4>
       </div>
-      
-      <div class="column3">
-        <img  src="artikelf.png" alt="" style="padding-bottom: 35px; width: 350px;">
-        <h2 class="c">iPhone 7 terbaru memiliki daya baterai besar dan penyimpanan 256 ..</h2>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <div class="caption">
+            <a style="text-decoration: none; color: white;" href="http://serviceapplebandung.com/iphone-7-terbaru-memiliki-daya-baterai-besar-dan-penyimpanan-256-gb/"><p class="" style="font-family: cantarell; font-size: 16px;">iPhone 7 terbaru memiliki daya baterai besar dan penyimpanan 256 GB
+              Apple Merilis teknologi terbaru dengan iPhone pintarnya dan pada tahun 2016 apple merilis iPhone 7 plus dan dari sumber yang diketahui iPhone 7 terbaru memiliki daya baterai besar dan penyimpanan 256 GB?
+              Yang dikutip dari Merdeka.com – iPhone 7 dan iPhone 7 Plus memang belum diperkenalkan oleh Apple. Namun, rumor mengenai smartphone andalan di tahun 2016 ini memang santer terdengar. Sejauh ini, ada beberapa kabar mengenai spesifikasi iPhone 7 dan iPhone 7s, seperti Touch ID akan hadir untuk layar dan akan menggunakan RAM 3 GB.
+              </p></a>
+          </div>
+          <img src="artikelf.png" alt="">
+        </div>
+        <h4 class="text-left" style="border-left: 2px lightgray solid; border-right: 2px lightgray solid; border-bottom: 3px black solid; font-family: Fjalla One; padding: 15px 25px 15px 25px;">iPhone 7 terbaru memiliki daya baterai besar dan penyimpanan 256 ...</h4>
+        </div>
       </div>
-    </div>
-          
-    <h3 class="akhir">Post navigation</h3>
-    <p class="akhir1">Older Posts</p>
+  
+</div>
 
-    <div class="footer">
-      <h3 class="footer1">Categories</h3>
-      <h3 class="footer2">Apple Service</h3>
-      <p class="footer3">WA / iMessage : 08122459904</p>
-      <a class="footer4 d" href="http://serviceapplebandung.com/category/apple/"> > apple</a><br>
-      <a class="footer4 e" href="http://serviceapplebandung.com/category/service-apple/"> > Service Apple</a><br>
-      <a class="footer4 f" href="http://serviceapplebandung.com/category/tips-and-trick/"> > tips and trick</a>
-    </div>
+  <br>
+  <br>
+  <br>
 
-
-    <p class="akhir2">· © 2020 Apple Service Bandung · Powered by  · Designed with the Customizr theme ·</p>
+  <div>
+  <center><h4 style="font-family: Fjalla One; color: grey; letter-spacing: 5px;">Post navigation</h4></center>
+    <a class="btn btn-sm btn-outline-secondary" href="http://serviceapplebandung.com/page/2/" target="_self" style="color: black;"><i class='fas fa-long-arrow-alt-left'></i>Older Posts</a></div>
+  
+<div class="container-fluid bg-dark">
+  <p>footer</p>
+</div>
 
 </body>
-
 </html>
