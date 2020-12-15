@@ -19,15 +19,17 @@ html
 .header{
     border-top: 6px black  solid;
     border-bottom: 10px lightgrey solid;
-    padding: 5px;
+    padding: 1px;
     margin-top: 0%;
 }
 
 .atas li {
     display: inline;
     float: right;
-    padding: 13px;
+    padding: 10px;
   }
+
+
 
 
 
